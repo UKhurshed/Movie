@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/menu_id"-->
+<!--        android:title="@string/menu"-->
+<!--        android:icon="@drawable/ic_menu"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        />-->
+    <item
+        android:id="@+id/coroutine_id"
+        android:title="@string/coroutines_activity"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/thread_id"
+        android:title="@string/threads_activity"
+        app:showAsAction="never"/>
+
+</menu>
