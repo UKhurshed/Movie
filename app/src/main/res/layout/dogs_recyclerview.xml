@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/dogs"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/movie_trailer"
+        android:scaleType="fitXY"
+        android:src="@drawable/endgame_background" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="24sp"
+        tools:text="Cat 1" />
+
+</LinearLayout>
